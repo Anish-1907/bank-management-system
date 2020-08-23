@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS customer_registration;
+CREATE TABLE IF NOT EXISTS customer_registration(userId SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT, username VARCHAR(50), name VARCHAR(50), password VARCHAR(100), address VARCHAR(255), state VARCHAR(50), country VARCHAR(50), emailAddress VARCHAR(50), pan VARCHAR(25), contactno VARCHAR(50), accounttype VARCHAR(25), dob DATE,  PRIMARY KEY (userId));
